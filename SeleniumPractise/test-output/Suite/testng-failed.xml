@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="url" value="https://www.w3schools.com/"/>
+    <classes>
+      <class name="Instalationbasic.TestW3Schol">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="launchurl"/>
+          <include name="urlTest"/>
+          <include name="firstTryIturself"/>
+          <include name="logoTest"/>
+          <include name="mysecondurself"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Instalationbasic.TestW3Schol -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
