@@ -10,7 +10,8 @@ public class Browser {
 		WebDriver driver = new ChromeDriver();
 		
 		 System.setProperty("webdriver.chrome.driver","F:\\seleniumdriver\\chromedriver.exe");
-		 driver.get("https://www.facebook.com/");
+		 System.out.println("Hello World");
+		driver.get("https://www.facebook.com/");
 		
 	}
 		
